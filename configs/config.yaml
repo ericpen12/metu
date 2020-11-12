@@ -1,0 +1,9 @@
+app:
+  mode: debug
+  port: 5400
+log:
+  level: "info"
+  filename: "./logs/ih.log"
+  max_size: 100
+  max_age: 30
+  max_backups: 7
